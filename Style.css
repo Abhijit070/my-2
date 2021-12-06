@@ -1,0 +1,116 @@
+body {
+color: black;    
+text-align: center;   
+}
+
+img {
+width: 200px;
+margin: 75px;   
+height: 200px;
+transition: transform .10s;    
+}
+
+.menu{
+position: fixed;
+background: white;
+margin-top: 0px;
+top: 0px;    
+width: 100%;
+z-index: 10; 
+list-style: none;
+float: right;
+}
+
+.link{
+  display: inline;
+padding-left: 33px;
+padding-right: 25px; 
+font-family: fantasy;
+font-size: 20px; 
+}
+
+.link:hover{
+background-color: chocolate;    
+}
+
+.line{
+    height: 10px;
+    width: 100px;
+    background-color: black;
+    margin: 9px auto;
+    
+}
+
+html
+{
+ scroll-behavior: smooth;
+}
+
+#bio{
+    padding:20px;
+    font-size:42;
+    background:pink;
+}
+.menu{
+   list-style: none;
+    font-family:cursive;
+   float:right;
+    top:10px;
+    right:30px;
+    cursor: pointer;
+    color:black;
+}
+.menu a{
+color:black !important;
+}
+
+a{
+  text-decoration:none;
+}
+
+.cricket{
+font-family: 'Cinzel Decorative', cursive;
+}
+
+#Home{
+background: linear-gradient(aqua,blue);   
+} 
+
+#app,#games,#art,#inspiration{
+width: 100%;
+height: 800px;
+background-color: aquamarine;
+}
+
+img:hover{
+    transform: scale(0.9);
+}
+    
+#chat{
+background-color: aquamarine;
+width: 100%;
+height: 800px;    
+}
+
+.me{
+vertical-align: middle;
+}
+
+h1{
+font-family: 'Cinzel Decorative', cursive;    
+}
+
+h4{
+display: inline;
+}
+
+.contacts_1 a{
+text-shadow: none ; 
+color: blue ;    
+}
+
+#contacts a{
+text-shadow: none !important;
+text-decoration: underline !important; 
+color: blue !important;    
+} 
